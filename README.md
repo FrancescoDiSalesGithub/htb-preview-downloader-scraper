@@ -13,3 +13,11 @@ Otherwise:
 bash htb-preview-downloader.sh /home/johndoe/htb
 ```
 
+# How to read downloaded files
+
+Since modern browser can not display the content of the preview lessons you have to use lynx:
+```
+lynx introduction-to-htb.html
+```
+
+And search for module overview
